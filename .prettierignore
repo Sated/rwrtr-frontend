@@ -1,0 +1,10 @@
+/.idea
+node_modules
+**/.next/**
+**/dist/**
+**/public/**
+.github/**
+.husky/**
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
