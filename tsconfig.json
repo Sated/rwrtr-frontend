@@ -32,11 +32,12 @@
   "include": [
     ".eslintrc.cjs",
     "next-env.d.ts",
+    "./src/utils/shims/**/*.d.ts",
     "**/*.ts",
     "**/*.tsx",
     "**/*.cjs",
     "**/*.js",
     ".next/types/**/*.ts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
 }

@@ -1,0 +1,104 @@
+{
+  "contentForm": {
+    "inputPlaceholder": "Write URL",
+    "options": {
+      "withJSRendering": "Render the JavaScript on the page",
+      "withJSRenderingLabel": "JavaScript",
+      "withMobileDevice": "Switching between desktop and mobile devices",
+      "withMobileDeviceLabel": "Mobile device",
+      "withProxy": "Use proxy to make the request",
+      "withProxyLabel": "Proxy"
+    },
+    "sourceLanguageLabel": "Source language",
+    "tabs": {
+      "simple": "Simpler",
+      "smart": "Smarter"
+    },
+    "targetLanguageLabel": "Target language"
+  },
+  "forms": {
+    "selectPlaceholder": "Pick value"
+  },
+  "header": {
+    "language": "Language"
+  },
+  "notFound": {
+    "backButton": "Take me back to home page",
+    "description": "Page you are trying to open does not exist. You may have mistyped the address, or the page has been moved to another URL.",
+    "title": "Page not found"
+  },
+  "status": {
+    "unknownError": "Unknown error"
+  },
+  "title": "rwrtr - assistant in translating and rewriting articles",
+  "wysiwyg": {
+    "convertTo": "Convert to {{format}}",
+    "copied": "Copied",
+    "copy": "Copy to clipboard",
+    "copyHTML": "Copy HTML to clipboard",
+    "saveFile": "Save to {{format}} file",
+    "saveFileError": "An error occurred while saving to a file",
+    "aiLabels": {
+      "rewrite": "Rewrite",
+      "modify": "Modify"
+    },
+    "aiTypes": {
+      "rewrite": "Rewrite",
+      "expand": "Expand",
+      "summarize": "Summarize",
+      "rewriteWithSeo": "Rewrite with SEO rules",
+      "rephrase": "Rephrase",
+      "modify": "",
+      "append": "Append"
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "title": "What is rwrtr?",
+        "text": "rwrtr is a tool for parsing, translating and rewriting articles. You can use it to translate articles from one language to another or rewrite them for SEO or reading optimization. \n Simply paste the link to the article, choose the source and target language. Our service will automatically parse, translate, and provide you with the opportunity to edit the content."
+      },
+      {
+        "title": "It is free?",
+        "text": "Yes, it is free to use."
+      },
+      {
+        "title": "Why is my page not being translated?",
+        "text": "The reason is that the content is not in the language you want to translate to. You can change the source language in the settings."
+      },
+      {
+        "title": "Are queries saved?",
+        "text": "No, queries are not saved in the database, but are temporarily cached in memory"
+      }
+    ]
+  },
+  "useCases": {
+    "title": "Use cases",
+    "subtitle": "rwrtr is <1>not</1> just for\n  rewritings",
+    "subtitleHighlight": "not",
+    "description": "Unlock the full potential of rwrtr across various scenarios",
+    "items": [
+      {
+        "icon": "brand-blogger",
+        "title": "Bloggers and Content Managers",
+        "text": "Enhance your articles, save time on translations and rewrites, making your content more unique and appealing to your audience."
+      },
+      {
+        "icon": "school",
+        "title": "Students and Researchers",
+        "text": "Efficiently translate and adapt foreign research, articles, and materials to make information more digestible in your preferred language."
+      },
+      {
+        "icon": "target",
+        "title": "Marketers and Copywriters",
+        "text": "Create unique content for your campaigns, maintain a constant update of articles and materials without extra effort."
+      },
+      {
+        "icon": "text-grammar",
+        "title": "Blogging Enthusiasts and Writers",
+        "text": "New ideas and perspectives! Get inspired, rework, and enhance existing content to create your masterpieces."
+      }
+    ]
+  }
+}

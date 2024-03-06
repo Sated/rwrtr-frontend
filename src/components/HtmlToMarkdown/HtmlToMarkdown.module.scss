@@ -1,0 +1,10 @@
+.wrapper {
+  position: relative;
+}
+
+.copyBtn {
+  position: absolute;
+  z-index: 10;
+  right: rem(32px);
+  bottom: rem(32px);
+}

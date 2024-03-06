@@ -1,0 +1,53 @@
+.wrapper {
+  position: relative;
+}
+
+.exportBtn {
+  position: absolute;
+  z-index: 10;
+  right: rem(16px);
+  bottom: rem(16px);
+}
+
+.root {
+  min-height: 600px;
+  height: 30vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: var(--mantine-color-dark-1)
+  }
+
+  @include dark {
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--mantine-color-gray-3)
+    }
+
+    &::-webkit-scrollbar {
+      width: 5px;
+      height: 5px
+    }
+  }
+
+  :global {
+    [contenteditable]:focus {
+      outline: none;
+    }
+  }
+}
+
+.readonly {
+  opacity: 0.2;
+  pointer-events: none;
+}

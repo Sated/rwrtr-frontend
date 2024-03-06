@@ -1,0 +1,4 @@
+export const MAX_TITLE_LENGTH = 512
+export const MAX_DESCRIPTION_LENGTH = 512
+export const MAX_CONTENT_LENGTH = 20000
+export const MAX_AI_CONTENT_LENGTH = 10000

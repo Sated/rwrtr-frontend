@@ -1,0 +1,7 @@
+.root {
+  :global {
+    [contenteditable]:focus {
+      outline: none;
+    }
+  }
+}
